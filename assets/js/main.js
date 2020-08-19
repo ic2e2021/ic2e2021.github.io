@@ -54,7 +54,7 @@ $(document).ready(function() {
 	
 	/* ======= Countdown ========= */
 	// set the date we're counting down to
-    var target_date = new Date("Oct 12, 2022").getTime();
+    var target_date = new Date("July 1, 2021").getTime();
      
     // variables for time units
     var days, hours, minutes, seconds;
@@ -93,9 +93,9 @@ $(document).ready(function() {
          
         // format countdown string + set tag value.
         days_span.innerHTML = '<span class="number">' + days + '</span>' + '<span class="unit">Days</span>';
-        hours_span.innerHTML = '<span class="number">' + hours + '</span>' + '<span class="unit">Hrs</span>';
-        minutes_span.innerHTML = '<span class="number">' + minutes + '</span>' + '<span class="unit">Mins</span>';
-        secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Secs</span>'; 
+        hours_span.innerHTML = '<span class="number">' + hours + '</span>' + '<span class="unit">Hours</span>';
+        minutes_span.innerHTML = '<span class="number">' + minutes + '</span>' + '<span class="unit">Minutes</span>';
+        secs_span.innerHTML = '<span class="number">' + seconds + '</span>' + '<span class="unit">Seconds</span>'; 
      
     }, 1000);
     

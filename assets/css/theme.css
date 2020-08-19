@@ -111,7 +111,7 @@ b,strong{
     font-weight:bolder
 }
 small{
-    font-size:80%
+    font-size:80%;
 }
 sub,sup{
     position:relative;
@@ -324,7 +324,7 @@ hr{
 }
 small,.small{
     font-size:80%;
-    font-weight:400
+    font-weight:400;
 }
 mark,.mark{
     padding:.2em;
@@ -3277,7 +3277,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 }
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link{
     color:#fff;
-    background-color:#098dcf
+    background-color:#098dcf;
 }
 .nav-fill .nav-item{
     flex:1 1 auto;
@@ -7995,12 +7995,12 @@ a.theme-link:hover{
     width:27px
 }
 .navbar-nav .nav-item .dropdown-menu {
-	opacity: 0.75;
-	background-color: transparent;
+	opacity: 1;
+	background-color: #fff;
 	border-width: 0px;
 }
 .navbar-nav .nav-item .dropdown-menu a {
-	color:#fff;
+	color:#141c25;
     -webkit-opacity:.75;
     -moz-opacity:.75;
     opacity:1;
@@ -8012,11 +8012,12 @@ a.theme-link:hover{
     -moz-opacity:1;
     opacity:1;
 	background:#141c25;
+	color: #fff;
 }
 .hero-block{
     position:relative;
     background-size:cover;
-    height:760px;
+    height:780px;
     padding-top:230px
 }
 .hero-block-mask{
@@ -8261,7 +8262,9 @@ a.theme-link:hover{
 .offers-list li{
     padding-top:0.5rem;
     padding-bottom:0.5rem;
-    font-size:1.125rem
+    font-size:1.125rem;
+	line-height: 0px;
+	margin-bottom: 10px;
 }
 .offers-list li .icon-holder{
     width:42px;
@@ -8271,10 +8274,14 @@ a.theme-link:hover{
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    padding-top:0.5rem
+    padding-top:0.5rem;
 }
 .offers-list li .svg-inline--fa{
     font-size:1.125rem
+}
+.offers-list li .date {
+	font-size: 12px;
+	margin-left: 55px;
 }
 .pricing .card{
     background:#fff;
